@@ -35,30 +35,34 @@
 
 App ID Description `Name` 可以自定义，一般为`工程名`，便于记忆和分辨，例如：`MyApp`
 
-<img src="" width="400">
+<img src="./image/descname.jpg" width="400">
 
 - 填写`Bundle ID`
 
 App ID Suffix 中勾选`Explicit App ID` 
 
-<img src="" width="400">
+<img src="./image/extid.jpg" width="400">
 
 `Bundle ID`一般格式为`com.companyName.ProjectName`，bundle id 在打包工程的时候会用的，请注意填写,如:`com.someCompany.MyApp`   
 在`xcode`中可以查看到项目的`Bundle Indentifier`
 
 <img src="./image/bundle.jpg" width="400">
 
+- App Services可勾选 `Push Notifications`
+
+<img src="./image/notify.jpg" width="400">
+
 - 点击`continue`
 
-<img src="" width="400">
+<img src="./image/idcontinue.jpg" width="400">
 
 - 点击`Submit`
 
-<img src="" width="400">
+<img src="./image/submit.jpg" width="400">
 
 - 点击`Done`
 
-<img src="" width="400">
+<img src="./image/done.jpg" width="400">
 
 ### 创建ios证书
 
