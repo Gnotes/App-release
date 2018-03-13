@@ -167,9 +167,9 @@ cd android && ./gradlew assembleRelease
 cd android && ./gradlew installRelease
 ```
 
-**安装报错，尝试 `adb uninstall YOUR_PACKAGE_NAME`**  
-**apk真机调试，Android Studio 中搜索 `Android Device Monitor`**  
-**真机服务Server没有找到 `db reverse tcp:8081 tcp:8081`**  
+- 安装报错，尝试 **`adb uninstall YOUR_PACKAGE_NAME`**  
+- apk真机调试，Android Studio 中搜索 **`Android Device Monitor`**  
+- 真机服务Server没有找到 **`adb reverse tcp:8081 tcp:8081`**  
 
 ## 发布
 
