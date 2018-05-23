@@ -74,6 +74,8 @@ CN=xing.he, OU=github, O=github, L=shanghai, ST=shanghai, C=zh是否正确?
 
 `Build` -> `Generate Signed APK` -> `Create New` -> 输入签名参数即可自动生成，默认签名文件的后缀是`.jks`
 
+**特别注意：**：生成签名时会提醒选择 `Signature Versions` ，选项有`V1(Jar Signature)` `V2(Full APK Signature)`，**这两个都要勾上**
+
 ### 查看keystore信息
 
 ```shell
@@ -164,6 +166,9 @@ cd android && ./gradlew assembleRelease
 ## 测试应用的发行版本
 
 ```shell
+# RN比较新的版本，使用第一中命令安装，应该是V50后改的吧，具体没研究过！
+react-native run-android --variant=release
+# RN旧的版本使用如下命名
 cd android && ./gradlew installRelease
 ```
 
